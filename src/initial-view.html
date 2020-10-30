@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- headers -->
+ <h2>Bookmarks</h2>
+
+ <!-- buttons -->
+ <!-- add new url button-->   
+ <section class="buttons">
+        <div class="newButton">
+            <button class="newURL">+ New Bookmark</button>
+        </div>
+        <form id="newUserBookmark">
+            <label for="new-bookmark-addition">new bookmark</label>
+            <input type="text" class="userBookmark" placeholder="where u put input">
+            <button type='submit'>+ new bookmark</button>
+        </form>
+ </section>
+<!-- filter by rating dropdown + button -->
+<div class="filter">
+    <form id="starRating">
+        <select id="rating">
+            <option value="">Filter By</option>
+            <option value="five">*****</option>
+            <option value="four">****</option>
+            <option value="three">***</option>
+            <option value="two">**</option>
+            <option value="one">*</option>
+        </select>
+    </form>
+</div>
+
+
+
+<!-- bookmark list -->
+ <section class="renderedBookmarks">
+     <ul>
+         <li>
+    <div class="bookmarkList">
+    <!-- individual bookmark list item -->
+        <div id="scalableBMarks">
+            <div class="bookmark">
+                <li>title</li> <span>rating</span>
+                <p>description</p>
+                
+
+            </div>
+            <li>bookmark two</li>
+            <li>bookmark three</li>
+            <li>bookmark four</li>
+        <!-- UI title -->
+
+        <!-- UI stars-->
+
+        <!-- UI description prev?? -->
+        </div>
+    </div>
+ </section>
+ </div>
+       
+ <!-- vendor scripts -->
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
